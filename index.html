@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima Actual</title>
-    <!-- Enlace a Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <div class="container mt-5">
         <h1 class="text-center">Consulta el Clima Actual</h1>
         <div class="form-group">
-            <input type="text" id="ciudad" class="form-control" placeholder="Introduce el nombre de la ciudad">
+            <input type="text" id="ciudad" class="form-control" placeholder="Introduce el nombre de la ciudad" aria-label="Nombre de la ciudad">
         </div>
         <button id="obtenerClima" class="btn btn-primary btn-block">Obtener Clima</button>
         <div id="resultado" class="mt-3"></div>
+        <ul id="sugerencias" class="list-group mt-2"></ul>
     </div>
 
-    <!-- Enlace a archivo.js -->
     <script src="archivo.js"></script>
 </body>
 </html>
+

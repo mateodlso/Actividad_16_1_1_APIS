@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f8ff;
+}
+
+#sugerencias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+#sugerencias li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#sugerencias li:hover {
+    background-color: #ccc;
+}
